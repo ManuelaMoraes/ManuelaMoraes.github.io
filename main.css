@@ -6,13 +6,20 @@ a, a:link, a:visited {
   color: #0099FF;text-decoration: none;
 }
 a:hover {
-  color: #FF9933;background-color: #0099FF;
+  color: #FF9933;
+  background-color: #0099FF;
 }
+background-color: #CBC3E3;
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   vertical-align: bottom;
   color: #505050;
+}
+.center {
+  margin: auto;
+  width: 65%;
+  padding: 10px;
 }
 hr{
   padding: 0px;
