@@ -1,28 +1,37 @@
 <style>
 link {
+  /* Changes the color of the link URLs on yoursite */
   color: #0099FF;
 }
 a, a:link, a:visited {
-  color: #0099FF;text-decoration: none;
+  /* Changes the color of any link URL that's beenvisited before */
+  color: #0099FF;
 }
 a:hover {
+  /* Changes the color of the link URL when youhover over it */
   color: #FF9933;
+  /* Changes the background color of the link URLwhen you hover over it */
   background-color: #0099FF;
 }
-background-color: #c9c0bb;
 body {
-  font-family: 'Century Gothic', sans-serif;
-  font-size: 18px;
+  /* Adds a background color to my site, or at leastthe content between the <body> tags*/
+  background-color: #CBC3E3;
+  /* If you want to use a different font, make sureyou update it here! */
+  font-family: 'Quicksand', sans-serif;
+  /* Change the pixel size for your font */
+  font-size: 16px;
+  /* Align your text */
   vertical-align: bottom;
-  color: #722F37;
+  /* Set the color of the text inside of the <body>tags */
+  color: #505050;
 }
+/* We will use the centering styling here for our<divs>, but it will only work when weuse class=center */
 .center {
   margin: auto;
   width: 65%;
   padding: 10px;
 }
-hr{
-  padding: 0px;
-  margin: 0px;
-}
+/* This code would center the content horizontallyAND vertically */
+/* You can try commenting out the above "center" codeand un-commenting the below code tosee the difference */
+/*   .center {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);padding: 10px;} */
 </style>
