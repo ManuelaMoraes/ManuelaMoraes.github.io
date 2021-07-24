@@ -23,7 +23,7 @@ body {
   /* Align your text */
   vertical-align: bottom;
   /* Set the color of the text inside of the <body>tags */
-  color: #505050;
+  color: #000000;
 }
 /* We will use the centering styling here for our<divs>, but it will only work when weuse class=center */
 .center {
